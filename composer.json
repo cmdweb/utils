@@ -1,0 +1,19 @@
+{
+  "name": "alcatraz/utils",
+  "description": "Utils Alcatraz Framework.",
+  "authors": [
+    {
+      "name": "Gabriel Malaquias",
+      "email": "gemalaquias@gmail.com"
+    }
+  ],
+  "keywords": ["alcatraz", "utils"],
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": { "Alcatraz\\Utils\\": "src" }
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.1"
+  }
+}
